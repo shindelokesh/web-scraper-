@@ -17,12 +17,12 @@ title_label = ctk.CTkLabel(
 )
 title_label.pack(pady=20)
 
-#frame settings
+
 frame = ctk.CTkFrame(app)
 frame.pack(pady=20)
 
 
-# Labels and entries
+
 label_1 = ctk.CTkLabel(frame, text="Username:", text_color="white", font=("ranan", 25))
 label_1.grid(row=0, column=0, padx=30, pady=10)
 
@@ -48,7 +48,7 @@ def submit_action():
     print("URL:", url_input)
     print("Website Name:", website_name_input)  
 
-# Buttons
+
 submit_button = ctk.CTkButton(
     frame,
     text="Submit",fg_color="darkgreen",hover_color="green",
@@ -66,6 +66,10 @@ privacy_button.grid(row=5, column=0, padx=100,pady=10, sticky="news", columnspan
 
 
 
-# Run the app
+
+
+
+
+
 
 app.mainloop()
